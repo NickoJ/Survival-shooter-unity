@@ -7,7 +7,7 @@ Unity version 2017.1.1f1
 
 - [x] 01. Environment setup
 - [x] 02. Player Character
-- [ ] 03. Camera setup
+- [x] 03. Camera setup
 - [ ] 04. Creating Enemy #1
 - [ ] 05. Health HUD
 - [ ] 06. Player Health
