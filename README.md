@@ -6,7 +6,7 @@ Unity version 2017.1.1f1
 ##Training Day Phases
 
 - [x] 01. Environment setup
-- [ ] 02. Player Character
+- [x] 02. Player Character
 - [ ] 03. Camera setup
 - [ ] 04. Creating Enemy #1
 - [ ] 05. Health HUD
