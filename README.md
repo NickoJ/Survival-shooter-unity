@@ -9,7 +9,7 @@ Unity version 2017.1.1f1
 - [x] 02. Player Character
 - [x] 03. Camera setup
 - [x] 04. Creating Enemy #1
-- [ ] 05. Health HUD
+- [x] 05. Health HUD
 - [ ] 06. Player Health
 - [ ] 07. Harming Enemies
 - [ ] 08. Scoring points
