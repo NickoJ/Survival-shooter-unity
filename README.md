@@ -12,6 +12,6 @@ Unity version 2017.1.1f1
 - [x] 05. Health HUD
 - [x] 06. Player Health
 - [x] 07. Harming Enemies
-- [ ] 08. Scoring points
+- [x] 08. Scoring points
 - [ ] 09. Spawning Enemies
 - [ ] 10. Game Over
