@@ -11,7 +11,7 @@ Unity version 2017.1.1f1
 - [x] 04. Creating Enemy #1
 - [x] 05. Health HUD
 - [x] 06. Player Health
-- [ ] 07. Harming Enemies
+- [x] 07. Harming Enemies
 - [ ] 08. Scoring points
 - [ ] 09. Spawning Enemies
 - [ ] 10. Game Over

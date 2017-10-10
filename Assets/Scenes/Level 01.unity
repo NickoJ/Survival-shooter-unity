@@ -461,28 +461,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ad67cddd729fb4342be2063a3f5ad7cc, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1197540300 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1476732492080766, guid: 5c4d84eac7544b848bd840390376bad1,
-    type: 2}
-  m_PrefabInternal: {fileID: 1925435994}
---- !u!114 &1197540301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1197540300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 544f2064df03e95419b4a5147c506b08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingHealth: 100
-  healthSlider: {fileID: 1956145179}
-  damageImage: {fileID: 583127490}
-  deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
-  flashSpeed: 5
-  flashColour: {r: 1, g: 0, b: 0, a: 0.1}
 --- !u!1 &1278415899
 GameObject:
   m_ObjectHideFlags: 0
@@ -958,6 +936,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114752991469576626, guid: 5c4d84eac7544b848bd840390376bad1,
+        type: 2}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1956145179}
+    - target: {fileID: 114752991469576626, guid: 5c4d84eac7544b848bd840390376bad1,
+        type: 2}
+      propertyPath: damageImage
+      value: 
+      objectReference: {fileID: 583127490}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c4d84eac7544b848bd840390376bad1, type: 2}
   m_IsPrefabParent: 0
@@ -1379,3 +1367,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.5
   attackDamage: 10
+--- !u!114 &2061303702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2061303693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b9d14572410594cb85d40eedfb150c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  sinkSpeed: 2.5
+  scoreValue: 10
+  deathClip: {fileID: 8300000, guid: 1d3bfb9269f136947bf8ac164cace1ff, type: 3}

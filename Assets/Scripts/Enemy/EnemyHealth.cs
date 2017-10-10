@@ -3,11 +3,9 @@
 public class EnemyHealth : MonoBehaviour
 {
     public int startingHealth = 100;
-    public int currentHealth;
     public float sinkSpeed = 2.5f;
     public int scoreValue = 10;
     public AudioClip deathClip;
-
 
     Animator anim;
     AudioSource enemyAudio;
@@ -15,7 +13,9 @@ public class EnemyHealth : MonoBehaviour
     CapsuleCollider capsuleCollider;
     bool isDead;
     bool isSinking;
+    int currentHealth;
 
+    public int CurrentHealth { get { return currentHealth; } }
 
     void Awake ()
     {
@@ -32,15 +32,14 @@ public class EnemyHealth : MonoBehaviour
     {
         if(isSinking)
         {
-            transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
+            transform.Translate (Vector3.down * sinkSpeed * Time.deltaTime);
         }
     }
 
 
     public void TakeDamage (int amount, Vector3 hitPoint)
     {
-        if(isDead)
-            return;
+        if(isDead) return;
 
         enemyAudio.Play ();
 
