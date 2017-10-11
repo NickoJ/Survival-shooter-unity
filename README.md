@@ -18,5 +18,5 @@ Unity version 2017.1.1f1
 
 ## Upgrading Audio
 
-- [ ] 01. Mixers and Effects
+- [x] 01. Mixers and Effects
 - [ ] 02. Snapshots and Exposed Parameters
