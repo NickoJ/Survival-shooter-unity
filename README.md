@@ -14,4 +14,4 @@ Unity version 2017.1.1f1
 - [x] 07. Harming Enemies
 - [x] 08. Scoring points
 - [x] 09. Spawning Enemies
-- [ ] 10. Game Over
+- [x] 10. Game Over
